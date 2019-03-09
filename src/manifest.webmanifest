@@ -1,0 +1,17 @@
+{
+    "name"              : "My Progressive Web App",
+    "short_name"        : "My PWA",
+    "description"       : "description",
+    "start_url"         : "/",
+    "display"           : "standalone",
+    "orientation"       : "portrait",
+    "background_color"  : "#DEF",
+    "theme_color"       : "#DEF",
+    "icons": [
+        {
+            "src"           : "/neko.jpg",
+            "sizes"         : "200x200",
+            "type"          : "image/png"
+        }
+    ]
+}

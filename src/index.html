@@ -2,9 +2,17 @@
 <html lang="en">
   <head>
     <title>Parcel - Vue</title>
+    <!-- <link rel="manifest" href="/manifest.json"> -->
+    <link rel="manifest" href="./manifest.webmanifest">
   </head>
   <body>
     <div id="app"></div>
     <script src="./index.js"></script>
+    <script type="text/javascript">
+      // register service worker
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/serviceworker.js');
+      }
+    </script>
   </body>
 </html>
